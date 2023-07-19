@@ -43,5 +43,5 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 - [x] Can display input render texture as image on a canvas
 - [x] Can change position and size of canvas image
 
-#### EasyComputerVision - V1.0.1
+#### EasyComputerVision - V1.1.0
 - [ ] Scheduled execution adapts to number of layers in the model
