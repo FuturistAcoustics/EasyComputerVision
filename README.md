@@ -1,7 +1,7 @@
 # EasyComputerVision
 EasyComputerVision is a Unity plugin that uses [Barracuda](https://docs.unity3d.com/Packages/com.unity.barracuda@3.0/manual/TensorHandling.html) at the backend to offer an easy way to run ML/DL models inside the Unity Game Engine. It allows you to use Barracuda code free.
 
-EasyComputerVision provides an easy method for image classification. Simply create an in-game camera or use your webcam and add an ONNX model to your project to easily run the model. 
+EasyComputerVision provides an easy method for image classification. Simply create an in-game camera or use your webcam and add an ONNX model to your project to easily run a model. 
 
 ## Intro Tutorial
 ## Development
