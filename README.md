@@ -29,7 +29,7 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 - [x] Can use in-game camera as input
 - [ ] Can use webcam as input
 - [x] Automatically creates a render texture using the model's input dimensions
-- [ ] Automatically installs Barracuda
+- [x] Automatically installs Barracuda
 - [x] Inference on update
 - [x] Inference on update using scheduled execution
 - [x] Inference on key press
