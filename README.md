@@ -17,8 +17,7 @@ Next, open a project. In Unity go to "Window" > "Packet Manager". In the Packet 
 [pic inside project window]
 
 ### 2. Setting-up Objects
-For this tutorial
-For this tutorial, we will use the in-game camera, but we also have the option to use the webcam as input. Create a camera game object. Create
+Open the demo scene. You will see a cube with an image of a duck on it and a camera object positioned to face it.
 
 ## Development
 ### Capabilities Checklist
