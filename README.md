@@ -73,11 +73,11 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 #### EasyComputerVision - V1.0.0
 - [x] Image classification
 - [x] Can use in-game camera as input
-- [ ] Can use webcam as input
+- [x] Can use webcam as input
 - [x] Automatically creates a render texture using the model's input dimensions
-- [x] Automatically installs Barracuda
 - [x] Inference on update
-- [x] Inference on update using scheduled execution
+- [x] Inference on interval
+- [x] Inference on interval using scheduled execution
 - [x] Inference on key press
 - [x] Inference on key press using scheduled execution
 - [x] Can use ComputePrecompiled (GPU - highly efficient GPU code with all overhead code stripped away and precompiled into the worker)
@@ -90,4 +90,5 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 - [x] Can change position and size of canvas image
 
 #### EasyComputerVision - V1.1.0
-- [ ] Scheduled execution adapts to number of layers in the model
+- [ ] Image segmentation
+- [ ] Scheduled execution can be configured
