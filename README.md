@@ -44,6 +44,9 @@ Under the Debug field, Display Input as Canvas is set to true, allowing you to v
 ### 5. Inference
 Run the game to run inference. Assuming the inference type is set to the default of On Interval Scheduled Execution, the predictions will be continuosly populated under the Predicted section. As the image is of a Drake, the predicted value is 97. You can check the full labels [here](https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a).
 
+![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Marketing_02.png?raw=true "Tutorial_6")
+
+
 ### 6. Appendix
 You can also use the webcam as input by setting Use Webcam to true in the Input section.
 
@@ -70,6 +73,10 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 ✅ [ResNet-50](https://huggingface.co/microsoft/resnet-50)
 
 ### Features
+#### EasyComputerVision - V1.1.0
+- [ ] Image segmentation
+- [ ] Scheduled execution can be fine-tuned
+
 #### EasyComputerVision - V1.0.0
 - [x] Image classification
 - [x] Can use in-game camera as input
@@ -88,7 +95,3 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 - [x] Can use CSharpRef (CPU - a less efficient but more stable reference implementation)
 - [x] Can display input render texture as image on a canvas
 - [x] Can change position and size of canvas image
-
-#### EasyComputerVision - V1.1.0
-- [ ] Image segmentation
-- [ ] Scheduled execution can be configured
