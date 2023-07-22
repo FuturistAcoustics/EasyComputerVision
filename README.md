@@ -7,6 +7,9 @@ EasyComputerVision is a Unity plugin that integrates [Barracuda](https://docs.un
 
 [Purchase EasyComputerVision on the Unity Asset Store](https://u3d.as/37DT)
 
+-----
+
+
 ## Intro Tutorial
 This tutorial details how to use the demo project included in EasyComputerVision, which involves using an in-game camera as input to a neural network for image classification and viewing the output.
 
@@ -52,6 +55,8 @@ You can also use the webcam as input by setting Use Webcam to true in the Input 
 
 Under Engine, the Worker Type can be set. By default, we use the most GPU efficient engine. More can be learnt about them by hovering your mouse over this field or at the [Barracuda docs](https://docs.unity3d.com/Packages/com.unity.barracuda@3.0/manual/Worker.html).
 
+
+-----
 
 ## Development
 ### Capabilities Checklist
