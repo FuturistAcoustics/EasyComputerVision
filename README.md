@@ -80,7 +80,7 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 ### Features
 #### EasyComputerVision - V1.1.0
 - [ ] Image segmentation
-- [ ] Input can be set to (0 to 255), (0 to 1), (-1 to 1)
+- [ ] Input can be normalized (0 to 1 or 0 to 255)
 - [ ] Output is displayed
 - [ ] Scheduled execution can be fine-tuned
 
