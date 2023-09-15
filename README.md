@@ -1,6 +1,13 @@
 <p align="center">
   <img src="https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/EasyComputerVision%20Logo%20192x192.png">
 </p>
+<p align="center">
+  <a href="https://www.linkedin.com/company/futurist-acoustics/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/LinkedIN_white.svg" width=28px></a>
+  <a href="https://www.youtube.com/@futuristacoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Youtube_white.svg" width=28px></a>
+  <a href="https://www.reddit.com/r/FuturistAcoustics/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Reddit_white.svg" width=28px></a>
+  <a href="https://twitter.com/FutAcoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Twitter_white.svg" width=28px></a>
+  <a href="https://github.com/FuturistAcoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Github_white.svg" width=28px></a>
+</p>
 
 # EasyComputerVision
 EasyComputerVision is a Unity plugin that integrates [Barracuda](https://docs.unity3d.com/Packages/com.unity.barracuda@3.0/manual/TensorHandling.html) with a code-free interface to offer an easy way to run ML/DL computer vision models inside the Unity Game Engine. It allows you to use Barracuda code-free and currently provides an easy method for image classification (with more use-cases to come). Simply create an in-game camera or use your webcam and add an ONNX model to your project to easily run a model. EasyComputerVision is created by [Futurist Acoustics](https://futuristacoustics.com/).
