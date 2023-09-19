@@ -79,7 +79,7 @@ Our aim is to see how many of the Computer Vision model types available at [Hugg
 - [ ] Zero-Shot Image Classification
 
 #### Image Classification ✅
-A range of CNNs can be used to classify images from an in-game camera or using your webcam. A majority of CNN models work, including for both greyscale and color inputs)
+A range of CNNs can be used to classify images from an in-game camera or using your webcam. A majority of CNN models work, including for both greyscale and color inputs.
 ##### Models Tested
 ✅ [ViT-Base-Patch16–224](https://huggingface.co/google/vit-base-patch16-224)
 ✅ [GoogLeNet](https://pytorch.org/hub/pytorch_vision_googlenet/)
