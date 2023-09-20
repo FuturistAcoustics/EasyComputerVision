@@ -112,3 +112,9 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 - [x] Can use CSharpRef (CPU - a less efficient but more stable reference implementation)
 - [x] Can display input render texture as image on a canvas
 - [x] Can change position and size of canvas image
+
+-----
+
+EasyComputerVision is created by [Futurist Acoustics](https://futuristacoustics.com/) <a href="https://futuristacoustics.com/"><img src="https://futuristacoustics.com/wp-content/uploads/2022/12/Media-Asset-Logo-1024%E2%80%8A%C3%97%E2%80%8A1130-928x1024.png" width=14px></a>.
+
+[Purchase EasyComputerVision on the Unity Asset Store](https://u3d.as/37DT) <a href="https://u3d.as/37DT"><img src="https://github.com/FuturistAcoustics/EasyComputerVision/raw/main/Images/EasyComputerVision%20Logo%20192x192.png" width=14px></a>
