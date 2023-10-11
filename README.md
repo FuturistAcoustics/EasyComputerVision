@@ -7,7 +7,7 @@
   <a href="https://www.youtube.com/@futuristacoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/YouTube-SM.svg" width=28px></a>
   <a href="https://www.reddit.com/r/FuturistAcoustics/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/Reddit-2023.svg" width=28px></a>
   <a href="https://twitter.com/FutAcoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/X-2023.svg" width=28px></a>
-  <a href="https://github.com/FuturistAcoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/GitHub-2023.svg" width=28px></a>
+  <a href="https://github.com/FuturistAcoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/GitHub-SM.svg" width=28px></a>
 </p>
 
 # EasyComputerVision
