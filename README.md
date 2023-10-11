@@ -2,12 +2,12 @@
   <img src="https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/EasyComputerVision%20Logo%20192x192.png">
 </p>
 <p align="center">
-  <a href="https://futuristacoustics.com/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/09/Futurist-Acoustics-Logo-Favicon.png" width=25px></a>
-  <a href="https://www.linkedin.com/company/futurist-acoustics/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/LinkedIN_white.svg" width=28px></a>
-  <a href="https://www.youtube.com/@futuristacoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Youtube_white.svg" width=28px></a>
-  <a href="https://www.reddit.com/r/FuturistAcoustics/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Reddit_white.svg" width=28px></a>
-  <a href="https://twitter.com/FutAcoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Twitter_white.svg" width=28px></a>
-  <a href="https://github.com/FuturistAcoustics"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/White/Github_white.svg" width=28px></a>
+  <a href="https://futuristacoustics.com/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/09/Futurist-Acoustics-Logo-Favicon.png" width=26px></a>
+  <a href="https://www.linkedin.com/company/futurist-acoustics/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/LinkedIn-2023.svg" width=28px></a>
+  <a href="https://www.youtube.com/@futuristacoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/YouTube-SM.svg" width=28px></a>
+  <a href="https://www.reddit.com/r/FuturistAcoustics/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/Reddit-2023.svg" width=28px></a>
+  <a href="https://twitter.com/FutAcoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/X-2023.svg" width=28px></a>
+  <a href="https://github.com/FuturistAcoustics"><img src="https://futuristacoustics.com/wp-content/uploads/2023/10/GitHub-2023.svg" width=28px></a>
 </p>
 
 # EasyComputerVision
