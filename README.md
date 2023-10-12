@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/EasyComputerVision%20Logo%20192x192.png">
+  <a href="https://assetstore.unity.com/packages/tools/ai-ml-integration/easy-computer-vision-261410"><img src="https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/EasyComputerVision%20Logo%20192x192.png"></a>
 </p>
 <p align="center">
   <a href="https://futuristacoustics.com/"><img src="https://futuristacoustics.com/wp-content/uploads/2023/09/Futurist-Acoustics-Logo-Favicon.png" width=26px></a>
