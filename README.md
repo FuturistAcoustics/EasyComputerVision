@@ -66,11 +66,11 @@ Under Engine Type, the backend can be set. By default, we use the most GPU effic
 
 ## Development
 ### Capabilities Checklist
-Our aim is to see how many of the Computer Vision model types available at [Hugging Face](https://huggingface.co/models) we can implement given the constraints of Barracuda:
+Our aim is to see how many of the Computer Vision model types available at [Hugging Face](https://huggingface.co/models) we can implement given the constraints of Sentis:
 - [x] Image Classification
+- [x] Object Detection
 - [ ] Image Segmentation
 - [ ] Depth Estimation
-- [ ] Object Detection
 - [ ] Image-to-Image
 - [ ] Unconditional Image Generation
 - [ ] Video Classification
@@ -86,9 +86,13 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 ✅ [ConvNeXt Tiny](https://github.com/onnx/models/blob/main/Computer_Vision/convnext_tiny_Opset16_timm/convnext_tiny_Opset16.onnx)
 ✅ [ConvNeXt Large](https://github.com/onnx/models/tree/main/Computer_Vision/convnext_large_Opset16_timm)
 
+#### Object Detection ✅
+##### Models Tested
+✅ [YOLOv7 Tiny](https://huggingface.co/unity/sentis-yolotinyv7/blob/main/yolov7-tiny.onnx)
+
 ### Features
-#### EasyComputerVision - V1.1.1
-- [ ] Object detection (planned)
+#### EasyComputerVision - V1.2.0
+- [x] Object detection using YOLO Tiny v7
 
 #### EasyComputerVision - V1.1.0 (refactoring for Sentis and more)
 - [x] Uses the new Unity Sentis, replacing Unity Barracuda
