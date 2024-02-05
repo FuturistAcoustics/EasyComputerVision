@@ -11,43 +11,47 @@
 </p>
 
 # EasyComputerVision
-## Image Classification Tutorial
-This tutorial details how to use the demo project included in EasyComputerVision, which involves using an in-game camera as input to a neural network for image classification and viewing the output.
+## Object Detection Tutorial
+This tutorial details how to use the demo project included in EasyComputerVision, which involves using an in-game camera as input to a neural network for object detection and viewing the output.
+
+We recommend you try the [image classification tutorial]() first, as this tutorial expands on some EasyComputerVision concepts.
 
 ### 1. Project Setup
 Create and save an empty 3D Unity project. EasyComputerVision requires the Sentis package. An easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
 
 Next, open a project. In Unity go to "Window" > "Packet Manager". In the Packet Manager that opens, change "Packages:" to "Packages: My Assets". Select EasyComputerVision, then Download, then Import. The import will appear in the project window.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2001.png "Tutorial_1")
+<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2001.png "Tutorial_1") -->
 
 ### 2. Opening the Demo Scene
-Open the demo scene by going to Futurist Acoustics > EasyComputerVision > Demo > ImageClassification > ImageClassification. You will see a plane with an image of a bird on it and a camera object positioned to face it.
+Open the demo scene by going to Futurist Acoustics > EasyComputerVision > Demo > ObjectDetection > ObjectDetection. You will see two objects that contain an image of a bird and a dog and a camera object positioned to face it.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2002.png "Tutorial_2")
+<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2002.png "Tutorial_2") -->
 
 ### 3. Importing a Model
-At Futurist Acoustics > EasyComputerVision > Models, you will see that this folder does not yet contain a model. The text file in this directory details where to get a model. Many models can be obtained already in the ONNX format at the [ONNX Model Zoo](https://github.com/onnx/models) You can use the ConvNeXt Nano model, which is a small and modern model trained on the ImageNet datset to classify a selection of 1,000 images. Download it from [here](https://github.com/onnx/models/blob/main/Computer_Vision/convnext_nano_Opset16_timm/convnext_nano_Opset16.onnx) and place it inside the Mode ls folder.
+We have included the YOLOv7 Tiny ONNX model for you and the corresponding labels.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2003.png "Tutorial_3")
+<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2003.png "Tutorial_3") -->
 
 ### 4. Setup
-Select the EasyComputerVision game object. This object contains the EasyCVImageClassification script component. From the project window, drag the model to the ONNX field located under Setup. You will see the name of the model appear in this field.
+Select the EasyComputerVision game object. This object contains the EasyCVObjectDetection script component.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2004.png "Tutorial_4")
+<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2004.png "Tutorial_4") -->
 
-As you can see, the in-game camera has already been set as the input camera. This is used as the input to our model. The Auto Create Input Texture boolean is also set to true because the camera input must be passed to a render texture before being input to the model. Auto Create Input Texture removes this intermediary step. It gets the model input dimensions to create the render texture and will automatically fill in the Input Texture field on run. You can create your own render texture if you'd like, just leave this boolean unticked and drag your render texture into the Input Texture field in order to do this.
+As you can see, the ONNX model has already been defined. Also, the in-game camera has already been set as the input camera. This is used as the input to our model. The Auto Create Input Texture boolean is also set to true because the camera input must be passed to a render texture before being input to the model. Auto Create Input Texture removes this intermediary step. It gets the model input dimensions to create the render texture and will automatically fill in the Input Texture field on run. You can create your own render texture if you'd like, just leave this boolean unticked and drag your render texture into the Input Texture field in order to do this. For object detection, you must include labels, and this has been already done for you.
 
 We also allow different ways to run inference under Inference Type. We recommend using either of the Scheduled Execution inference options for less computationally intense inference. If you're using one of the On Key Press options, you can define the key in the Key drop down. By default this is the letter 'I' (for inference).
 
 For this demo, set the Inference Type to Keypress so that when you press 'I' then inference will run.
 
+Ensure View Output is set to true to view the output of the model. You can modify it's X and Y positions and its scale.
+
 Setting View Input to true under Helper allows you to view the input texture that is input to the model as a canvas. You can adjust the size and position of the canvas' image by adjusting the X Position, Y Position, and Scale.
 
 ### 5. Inference
-Run the game and press 'I' to run inference. Assuming Show Results in Console is still set to true, you will see the prediction results in the console. An integer will appear and its confidence probability. The integer indicates the prediction, which can be checked against a full list of labels to see what the prediction is [here](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Models/ImageNet/Labels.txt). The ConvNeXt models makes accurate predictions on the provided images which rotate between 96, 97, 98, 99, and 100.
+Run the game and press 'I' to run inference. You will see the two animals with bounding boxes in the game view.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2005.png "Tutorial_5")
+<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2005.png "Tutorial_5") -->
 
 ### 6. Appendix
 You can also use the webcam as input by setting Use Webcam to true in the Input section.
