@@ -17,8 +17,8 @@ EasyComputerVision is a Unity plugin that integrates the brand new [Sentis](http
 
 -----
 ## Tutorials
-- [Image Classification Tutorial]("Tutorials\Image Classification Tutorial.md")
-- [Object Detection Tutorial]("Tutorials\Object Detection Tutorial.md")
+- [Image Classification Tutorial](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Tutorials/Image%20Classification%20Tutorial.md)
+- [Object Detection Tutorial](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Tutorials/Object%20Detection%20Tutorial.md)
 
 -----
 ## Development
