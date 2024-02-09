@@ -17,26 +17,43 @@ This tutorial details how to use the demo project included in EasyComputerVision
 We recommend you try the [image classification tutorial]() first, as this tutorial expands on some EasyComputerVision concepts.
 
 ### 1. Project Setup
-Create and save an empty 3D Unity project. EasyComputerVision requires the Sentis package. An easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
+Open or create a 3D Unity project. After purchasing EasyComputerVision, go to "Window" > "Packet Manager". In the Packet Manager that opens, change "Packages:" to "Packages: My Assets". Select EasyComputerVision, then Download, then Import.
 
-Next, open a project. In Unity go to "Window" > "Packet Manager". In the Packet Manager that opens, change "Packages:" to "Packages: My Assets". Select EasyComputerVision, then Download, then Import. The import will appear in the project window.
+The Sentis package is a dependency to EasyComputerVision, so should already be installed when you import the package. If you see errors because Sentis isn't installed, an easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
 
-<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2001.png "Tutorial_1") -->
+<div align="center">
+  <a href="Images\Object Detection Tutorial\Image 01.png" target="_blank">
+    <img src="Images\Object Detection Tutorial\Image 01.png"/>
+  </a>
+</div>
 
 ### 2. Opening the Demo Scene
 Open the demo scene by going to Futurist Acoustics > EasyComputerVision > Demo > ObjectDetection > ObjectDetection. You will see two objects that contain an image of a bird and a dog and a camera object positioned to face it.
 
-<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2002.png "Tutorial_2") -->
+<div align="center">
+  <a href="Images\Object Detection Tutorial\Image 02.png" target="_blank">
+    <img src="Images\Object Detection Tutorial\Image 02.png"/>
+  </a>
+</div>
 
 ### 3. Importing a Model
-We have included the YOLOv7 Tiny ONNX model for you and the corresponding labels.
+Object Detection is currently only compatible with the Tiny YOLOv7 model. We have included the Tiny YOLOv7 ONNX model for you and the corresponding labels.
 
-<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2003.png "Tutorial_3") -->
+<div align="center">
+  <a href="Images\Object Detection Tutorial\Image 03.png" target="_blank">
+    <img src="Images\Object Detection Tutorial\Image 03.png"/>
+  </a>
+</div>
 
 ### 4. Setup
 Select the EasyComputerVision game object. This object contains the EasyCVObjectDetection script component.
 
-<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2004.png "Tutorial_4") -->
+<div align="center">
+  <a href="Images\Object Detection Tutorial\Image 04.png" target="_blank">
+    <img src="Images\Object Detection Tutorial\Image 04.png"/>
+  </a>
+</div>
+<br>
 
 As you can see, the ONNX model has already been defined. Also, the in-game camera has already been set as the input camera. This is used as the input to our model. The Auto Create Input Texture boolean is also set to true because the camera input must be passed to a render texture before being input to the model. Auto Create Input Texture removes this intermediary step. It gets the model input dimensions to create the render texture and will automatically fill in the Input Texture field on run. You can create your own render texture if you'd like, just leave this boolean unticked and drag your render texture into the Input Texture field in order to do this. For object detection, you must include labels, and this has been already done for you.
 
@@ -44,14 +61,18 @@ We also allow different ways to run inference under Inference Type. We recommend
 
 For this demo, set the Inference Type to Keypress so that when you press 'I' then inference will run.
 
-Ensure View Output is set to true to view the output of the model. You can modify it's X and Y positions and its scale.
+Ensure View Output is set to true to view the output of the model. You can modify it's X and Y positions, its scale, and the color of the bounding box and text.
 
 Setting View Input to true under Helper allows you to view the input texture that is input to the model as a canvas. You can adjust the size and position of the canvas' image by adjusting the X Position, Y Position, and Scale.
 
 ### 5. Inference
 Run the game and press 'I' to run inference. You will see the two animals with bounding boxes in the game view.
 
-<!-- ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2005.png "Tutorial_5") -->
+<div align="center">
+  <a href="Images\Object Detection Tutorial\Image 05.png" target="_blank">
+    <img src="Images\Object Detection Tutorial\Image 05.png"/>
+  </a>
+</div>
 
 ### 6. Appendix
 You can also use the webcam as input by setting Use Webcam to true in the Input section.
