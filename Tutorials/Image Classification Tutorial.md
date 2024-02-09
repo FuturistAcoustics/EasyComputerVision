@@ -19,22 +19,38 @@ Open or create a 3D Unity project. After purchasing EasyComputerVision, go to "W
 
 The Sentis package is a dependency to EasyComputerVision, so should already be installed when you import the package. If you see errors because Sentis isn't installed, an easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2001.png "Tutorial_1")
+<div align="center">
+  <a href="Images\Image Classification Tutorial\Image 01.png" target="_blank">
+    <img src="Images\Image Classification Tutorial\Image 01.png"/>
+  </a>
+</div>
 
 ### 2. Opening the Demo Scene
 Open the demo scene by going to Futurist Acoustics > EasyComputerVision > Demo > ImageClassification > ImageClassification. You will see a plane with an image of a bird on it and a camera object positioned to face it.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2002.png "Tutorial_2")
+<div align="center">
+  <a href="Images\Image Classification Tutorial\Image 02.png" target="_blank">
+    <img src="Images\Image Classification Tutorial\Image 02.png"/>
+  </a>
+</div>
 
 ### 3. Importing a Model
 At Futurist Acoustics > EasyComputerVision > Models, you will see that this folder does not yet contain a model. The text file in this directory details where to get a model. Many models can be obtained already in the ONNX format at the [ONNX Model Zoo](https://github.com/onnx/models) You can use the ConvNeXt Nano model, which is a small and modern model trained on the ImageNet datset to classify a selection of 1,000 images. Download it from [here](https://github.com/onnx/models/blob/main/Computer_Vision/convnext_nano_Opset16_timm/convnext_nano_Opset16.onnx) and place it inside the Mode ls folder.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2003.png "Tutorial_3")
+<div align="center">
+  <a href="Images\Image Classification Tutorial\Image 03.png" target="_blank">
+    <img src="Images\Image Classification Tutorial\Image 03.png"/>
+  </a>
+</div>
 
 ### 4. Setup
 Select the EasyComputerVision game object. This object contains the EasyCVImageClassification script component. From the project window, drag the model to the ONNX field located under Setup. You will see the name of the model appear in this field.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2004.png "Tutorial_4")
+<div align="center">
+  <a href="Images\Image Classification Tutorial\Image 04.png" target="_blank">
+    <img src="Images\Image Classification Tutorial\Image 04.png"/>
+  </a>
+</div>
 
 As you can see, the in-game camera has already been set as the input camera. This is used as the input to our model. The Auto Create Input Texture boolean is also set to true because the camera input must be passed to a render texture before being input to the model. Auto Create Input Texture removes this intermediary step. It gets the model input dimensions to create the render texture and will automatically fill in the Input Texture field on run. You can create your own render texture if you'd like, just leave this boolean unticked and drag your render texture into the Input Texture field in order to do this.
 
@@ -47,7 +63,11 @@ Setting View Input to true under Helper allows you to view the input texture tha
 ### 5. Inference
 Run the game and press 'I' to run inference. Assuming Show Results in Console is still set to true, you will see the prediction results in the console. An integer will appear and its confidence probability. The integer indicates the prediction, which can be checked against a full list of labels to see what the prediction is [here](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Models/ImageNet/Labels.txt). The ConvNeXt models makes accurate predictions on the provided images which rotate between 96, 97, 98, 99, and 100.
 
-![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2005.png "Tutorial_5")
+<div align="center">
+  <a href="Images\Image Classification Tutorial\Image 05.png" target="_blank">
+    <img src="Images\Image Classification Tutorial\Image 05.png"/>
+  </a>
+</div>
 
 ### 6. Appendix
 You can also use the webcam as input by setting Use Webcam to true in the Input section.
