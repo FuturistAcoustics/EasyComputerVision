@@ -15,9 +15,9 @@
 This tutorial details how to use the demo project included in EasyComputerVision, which involves using an in-game camera as input to a neural network for image classification and viewing the output.
 
 ### 1. Project Setup
-Create and save an empty 3D Unity project. EasyComputerVision requires the Sentis package. An easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
+Open or create a 3D Unity project. After purchasing EasyComputerVision, go to "Window" > "Packet Manager". In the Packet Manager that opens, change "Packages:" to "Packages: My Assets". Select EasyComputerVision, then Download, then Import.
 
-Next, open a project. In Unity go to "Window" > "Packet Manager". In the Packet Manager that opens, change "Packages:" to "Packages: My Assets". Select EasyComputerVision, then Download, then Import. The import will appear in the project window.
+The Sentis package is a dependency to EasyComputerVision, so should already be installed when you import the package. If you see errors because Sentis isn't installed, an easy way to add Sentis is to go to Window > Package Manager > + > Add package by name, then paste in `com.unity.sentis` in the Name field and select Add.
 
 ![alt text](https://github.com/FuturistAcoustics/EasyComputerVision/blob/main/Images/Tutorial%201.1.0/Image%2001.png "Tutorial_1")
 
