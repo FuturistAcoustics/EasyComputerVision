@@ -48,6 +48,9 @@ A range of CNNs can be used to classify images from an in-game camera or using y
 ✅ [YOLOv7 Tiny](https://huggingface.co/unity/sentis-yolotinyv7/blob/main/yolov7-tiny.onnx)
 
 ### Features
+#### EasyComputerVision - V1.2.1
+- [] Can select bounding box and text color
+
 #### EasyComputerVision - V1.2.0
 - [x] Object detection using YOLO Tiny v7
 
